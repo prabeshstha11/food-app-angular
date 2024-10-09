@@ -1,0 +1,17 @@
+<div class="item">
+  <div class="image-container">
+    <img
+      src="{{ foodItem.image_url }}"
+      alt="{{ foodItem.title }}"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="content-detail">
+    <h1 class="title">{{ foodItem.title }}</h1>
+    <p class="description">{{ foodItem.description }}</p>
+    <p class="price">$ {{ foodItem.price }}</p>
+  </div>
+
+  <button class="order-btn">Order</button>
+</div>

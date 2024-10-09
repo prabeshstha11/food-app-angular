@@ -1,0 +1,15 @@
+.search-item {
+  width: 100%;
+  .search {
+    width: 17rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}

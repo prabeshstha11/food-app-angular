@@ -1,0 +1,154 @@
+{
+  "foods": [
+    {
+      "title": "Margherita Pizza",
+      "image_url": "https://images.unsplash.com/photo-1664309641932-0e03e0771b97",
+      "price": 8.99,
+      "description": "Classic pizza topped with fresh mozzarella, tomatoes, and basil."
+    },
+    {
+      "title": "Caesar Salad",
+      "image_url": "https://images.unsplash.com/photo-1512852939750-1305098529bf",
+      "price": 7.49,
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan cheese."
+    },
+    {
+      "title": "Spaghetti Carbonara",
+      "image_url": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e",
+      "price": 12.99,
+      "description": "Pasta with eggs, cheese, pancetta, and pepper."
+    },
+    {
+      "title": "Grilled Chicken Sandwich",
+      "image_url": "https://images.unsplash.com/photo-1597579018905-8c807adfbed4",
+      "price": 10.99,
+      "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo."
+    },
+    {
+      "title": "Buff Tacos",
+      "image_url": "https://images.unsplash.com/photo-1640983743761-4f0e0204bc58",
+      "price": 9.99,
+      "description": "Spicy ground Buff in soft corn tortillas, topped with fresh salsa."
+    },
+    {
+      "title": "Vegetable Stir-Fry",
+      "image_url": "https://images.unsplash.com/photo-1543826173-cfe2ca17577d",
+      "price": 11.49,
+      "description": "A mix of seasonal vegetables stir-fried with soy sauce and garlic."
+    },
+    {
+      "title": "Shrimp Scampi",
+      "image_url": "https://images.unsplash.com/photo-1681151837414-d25590a0f814",
+      "price": 14.99,
+      "description": "Shrimp sautéed in butter and garlic, served with pasta."
+    },
+    {
+      "title": "Marinated Grilled Salmon",
+      "image_url": "https://images.unsplash.com/photo-1712334562767-5d366d0c40d9",
+      "price": 16.99,
+      "description": "Salmon fillet marinated and grilled to perfection."
+    },
+    {
+      "title": "Stuffed Bell Peppers",
+      "image_url": "https://images.unsplash.com/photo-1625938397463-3207162ef18b",
+      "price": 12.49,
+      "description": "Bell peppers stuffed with rice, beans, and cheese, baked until tender."
+    },
+    {
+      "title": "Lentil Soup",
+      "image_url": "https://images.unsplash.com/photo-1712334647050-c024d7d335f3",
+      "price": 6.99,
+      "description": "Hearty lentil soup with vegetables and spices."
+    },
+    {
+      "title": "Margarita Flatbread",
+      "image_url": "https://images.unsplash.com/photo-1670952606267-f8389525e83b",
+      "price": 9.49,
+      "description": "Flatbread topped with mozzarella, tomatoes, and basil."
+    },
+    {
+      "title": "Buffalo Wings",
+      "image_url": "https://images.unsplash.com/photo-1608039755401-742074f0548d",
+      "price": 11.99,
+      "description": "Spicy chicken wings served with blue cheese dressing."
+    },
+    {
+      "title": "Eggplant Parmesan",
+      "image_url": "https://images.unsplash.com/photo-1604908177453-7462950a6a3b",
+      "price": 10.99,
+      "description": "Layers of eggplant, marinara sauce, and cheese, baked to perfection."
+    },
+    {
+      "title": "Thai Green Curry",
+      "image_url": "https://images.unsplash.com/photo-1668665772043-bdd32e348998",
+      "price": 13.49,
+      "description": "Spicy Thai curry with vegetables and coconut milk."
+    },
+    {
+      "title": "Cheeseburger",
+      "image_url": "https://images.unsplash.com/photo-1603508102983-99b101395d1a",
+      "price": 9.99,
+      "description": "Juicy Buff burger with cheese, lettuce, and tomato."
+    },
+    {
+      "title": "Chickpea Salad",
+      "image_url": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af",
+      "price": 7.99,
+      "description": "A refreshing salad made with chickpeas, cucumbers, and parsley."
+    },
+    {
+      "title": "Pasta Primavera",
+      "image_url": "https://images.unsplash.com/photo-1579349443343-73da56a71a20",
+      "price": 11.49,
+      "description": "Pasta with a variety of fresh vegetables and olive oil."
+    },
+    {
+      "title": "BBQ Ribs",
+      "image_url": "https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b",
+      "price": 16.49,
+      "description": "Tender ribs glazed with BBQ sauce, served with coleslaw."
+    },
+    {
+      "title": "Caprese Salad",
+      "image_url": "https://images.unsplash.com/photo-1529312266912-b33cfce2eefd",
+      "price": 8.99,
+      "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze."
+    },
+    {
+      "title": "Pancakes with Maple Syrup",
+      "image_url": "https://images.unsplash.com/photo-1528301392571-0dfab3c00216",
+      "price": 7.49,
+      "description": "Fluffy pancakes served with maple syrup and butter."
+    },
+    {
+      "title": "Vegetable Samosas",
+      "image_url": "https://images.unsplash.com/photo-1589786742305-f24d19eedbe5",
+      "price": 5.99,
+      "description": "Crispy pastries filled with spiced vegetables."
+    },
+    {
+      "title": "Pork Schnitzel",
+      "image_url": "https://images.unsplash.com/photo-1624517607896-bb5dfd8f5764",
+      "price": 14.99,
+      "description": "Breaded and fried pork cutlet served with lemon."
+    },
+    {
+      "title": "Quinoa Bowl",
+      "image_url": "https://images.unsplash.com/photo-1521354414378-fcffad1d3d6a",
+      "price": 10.99,
+      "description": "Healthy quinoa bowl with mixed vegetables and dressing."
+    },
+    {
+      "title": "Chocolate Lava Cake",
+      "image_url": "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e",
+      "price": 6.49,
+      "description": "Rich chocolate cake with a molten center."
+    },
+    {
+      "title": "Fruit Tart",
+      "image_url": "https://images.unsplash.com/photo-1468218620578-e8d78dcda7b1",
+      "price": 5.49,
+      "description": "Tart filled with creamy custard and topped with fresh fruit."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<div class="header">
+  <h1>foodapp.</h1>
+</div>
+
+<div class="search-item">
+  <input
+    class="search"
+    placeholder="Search Food..."
+    [(ngModel)]="searchQuery"
+    (input)="searchFood()"
+  />
+</div>
+
+<div class="results">
+  <app-food
+    *ngFor="let foodItem of filteredFoodItemList"
+    [foodItem]="foodItem"
+  ></app-food>
+</div>
