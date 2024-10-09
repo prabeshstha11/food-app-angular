@@ -1,7 +1,9 @@
 <main class="main">
   <div class="content">
-    <app-home></app-home>
+    <div class="header">
+      <a class="logo" routerLink="">foodapp.</a>
+      <a class="cart" routerLink="/cart">cart</a>
+    </div>
+    <router-outlet />
   </div>
 </main>
-
-<router-outlet />

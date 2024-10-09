@@ -1,0 +1,19 @@
+.header {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo,
+  .cart {
+    text-decoration: none;
+    color: #1e90ff;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+  .cart {
+    font-size: 2rem;
+  }
+}
