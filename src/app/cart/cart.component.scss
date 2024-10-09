@@ -1,0 +1,18 @@
+.order-item {
+  display: flex;
+  padding: 1rem;
+  gap: 0.75rem;
+
+  .order-img {
+    height: 11rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

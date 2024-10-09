@@ -1,1 +1,14 @@
-<p>cart works!</p>
+<div class="order-item" *ngFor="let item of cartItems">
+  <div class="order-img">
+    <img [src]="item.image_url" alt="{{ item.title }}" />
+  </div>
+  <div class="content">
+    <h2>{{ item.title }}</h2>
+    <p>Price: $ {{ item.price }}</p>
+    <p>Quantity: {{ item.quantity }}</p>
+  </div>
+</div>
+
+<div>
+  <h3>Total: $ {{ getTotal() }}</h3>
+</div>

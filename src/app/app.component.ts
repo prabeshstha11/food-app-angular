@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { CartService } from './cart.service';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,13 @@ import { HomeComponent } from './home/home.component';
 })
 export class AppComponent {
   title = 'foodapp';
+  totalItem: number = 0;
+
+  cartService: CartService = inject(CartService);
+
+  constructor() {}
+
+  getTotal() {
+    return this.cartService.getTotalItems();
+  }
 }
