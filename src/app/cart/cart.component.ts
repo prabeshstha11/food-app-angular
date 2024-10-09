@@ -15,6 +15,10 @@ export class CartComponent {
   cartService: CartService = inject(CartService);
 
   constructor() {
+    this.updateCartItems();
+  }
+
+  updateCartItems() {
     this.cartItems = this.cartService.getCartItems();
   }
 
@@ -23,5 +27,14 @@ export class CartComponent {
       (total, item) => total + item.price * item.quantity,
       0
     );
+  }
+
+  increase(item: CartItem) {
+    this.cartService.addToCart(item);
+  }
+
+  decrease(item: CartItem) {
+    this.cartService.decrease(item);
+    this.updateCartItems();
   }
 }

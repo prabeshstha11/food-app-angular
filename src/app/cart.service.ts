@@ -30,4 +30,20 @@ export class CartService {
   getCartItems(): CartItem[] {
     return this.cart;
   }
+
+  decrease(foodItem: CartItem) {
+    const existingItem = this.cart.find(
+      (item: CartItem) => item.title === foodItem.title
+    );
+
+    if (existingItem) {
+      existingItem.quantity -= 1;
+
+      if (existingItem.quantity < 1) {
+        this.cart = this.cart.filter((item) => item.title !== foodItem.title);
+      }
+    }
+
+    console.log(this.cart);
+  }
 }

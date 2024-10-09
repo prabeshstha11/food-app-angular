@@ -6,6 +6,8 @@
     <h2>{{ item.title }}</h2>
     <p>Price: $ {{ item.price }}</p>
     <p>Quantity: {{ item.quantity }}</p>
+    <button class="counter" (click)="decrease(item)">-</button>
+    <button class="counter" (click)="increase(item)">+</button>
   </div>
 </div>
 
