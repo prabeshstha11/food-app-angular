@@ -5,7 +5,7 @@ import { FoodItem } from './food-item';
   providedIn: 'root',
 })
 export class FoodService {
-  url = 'https://monkeydata.onrender.com/';
+  url = 'https://monkeydata.onrender.com/foods';
 
   async getAllFoodItems(): Promise<FoodItem[]> {
     const data = await fetch(this.url);
